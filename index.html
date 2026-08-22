@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BLOOM: Tu brillo, tu color</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <div class="hero-content">
+      <span class="badge">💄 Lanzamiento 1 de Septiembre</span>
+      <h1>Conocé <span class="highlight">BLOOM</span></h1>
+      <p class="subtitle">El lip oil que hidrata, ilumina y le da color a tus labios. Fórmula natural, brillo real, sin pegajosidad.</p>
+
+      <div class="cta-group">
+        <a href="#preventa" class="btn btn-primary">Quiero el mío 🎉</a>
+        <a href="#caracteristicas" class="btn btn-ghost">Ver más</a>
+      </div>
+
+      <div class="countdown" id="countdown">
+        <div class="count-box"><span id="days">00</span><small>días</small></div>
+        <div class="count-box"><span id="hours">00</span><small>hs</small></div>
+        <div class="count-box"><span id="minutes">00</span><small>min</small></div>
+        <div class="count-box"><span id="seconds">00</span><small>seg</small></div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="product-frame">
+        <img src="assets/img/bloom-product-hero.png" alt="Frasco de BLOOM Lip Oil junto a una flor rosa" class="product-image">
+      </div>
+      <div class="floating-emoji e1">💋</div>
+      <div class="floating-emoji e2">🍓</div>
+      <div class="floating-emoji e3">🍑</div>
+      <div class="floating-emoji e4">✨</div>
+    </div>
+  </header>
+
+  <!-- Tagline banner -->
+  <section class="tagline-banner">
+    <div class="tagline-content reveal">
+      <h2>Un brillo que se nota, un labio que lo agradece</h2>
+    </div>
+  </section>
+
+  <!-- Caracteristicas -->
+  <section class="features" id="caracteristicas">
+    <h2>¿Por qué te va a encantar?</h2>
+    <p class="section-subtitle">Hecho con ingredientes reales, para que sientas la diferencia desde la primera pasada.</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3c3.5 4 6.5 8.1 6.5 11.5a6.5 6.5 0 0 1-13 0C5.5 11.1 8.5 7 12 3Z"/>
+          </svg>
+        </div>
+        <h3>Hidratación intensa</h3>
+        <p>Aceite de jojoba y manteca de karité que nutren tus labios todo el día.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20 4C10 4 4 9 4 17c0 1 0 2 .5 3C6 15 11 9 20 4Z"/>
+            <path d="M4.5 20c5-1 10-5 12-11"/>
+          </svg>
+        </div>
+        <h3>100% natural</h3>
+        <p>Sin parabenos, sin sulfatos, sin crueldad animal. Ingredientes de origen vegetal.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3a9 9 0 1 0 0 18c1.1 0 2-.9 2-2 0-.5-.2-1-.5-1.4-.3-.4-.5-.8-.5-1.3 0-1 .8-1.8 1.8-1.8H17a4 4 0 0 0 4-4c0-4.1-4-7.5-9-7.5Z"/>
+            <circle cx="7.5" cy="10.5" r="1.1" fill="currentColor" stroke="none"/>
+            <circle cx="11" cy="7.5" r="1.1" fill="currentColor" stroke="none"/>
+            <circle cx="15.5" cy="8.5" r="1.1" fill="currentColor" stroke="none"/>
+          </svg>
+        </div>
+        <h3>Tonos únicos</h3>
+        <p>Frutos rojos, durazno y coral. Colores que se adaptan a tu tono natural.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M7 3.5 9.5 8H5.2L7 3.5Z"/>
+            <path d="M5.2 8c-1.5 2.4-1.6 5.4.3 8"/>
+            <path d="M17 3.5l4 1.6-2.3 3.8"/>
+            <path d="M21 5.1c1.3 2.6.9 5.7-1.2 8"/>
+            <path d="M9.3 20.5l-2.6-3.4 4-1.1"/>
+            <path d="M6.7 17.1c2.6 1.3 5.7 1.1 7.9-.8"/>
+          </svg>
+        </div>
+        <h3>Packaging responsable</h3>
+        <p>Envase de vidrio reciclable y producción con huella de carbono neutra.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lifestyle -->
+  <section class="lifestyle">
+    <div class="lifestyle-media">
+      <img src="assets/img/bloom-model.png" alt="Modelo aplicándose BLOOM Lip Oil" loading="lazy">
+    </div>
+    <div class="lifestyle-content">
+      <h2>Se aplica en segundos, se nota todo el día</h2>
+      <p>Fórmula liviana que se desliza sin pegotear, con aplicador de precisión para un brillo perfecto en cada pasada.</p>
+      <ul class="lifestyle-list">
+        <li>✨ Brillo natural, no artificial</li>
+        <li>💧 Efecto plumping suave</li>
+        <li>🌸 Aroma floral delicado</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Tonos -->
+  <section class="flavors">
+    <h2>Elegí tu tono</h2>
+    <div class="flavor-row">
+      <div class="flavor-pill" style="--c1:#c06864; --c2:#eeb79c;">
+        <div class="flavor-circle">🍓</div>
+        <span>Frutos Rojos</span>
+      </div>
+      <div class="flavor-pill" style="--c1:#d9a24e; --c2:#eeb79c;">
+        <div class="flavor-circle">🍑</div>
+        <span>Durazno</span>
+      </div>
+      <div class="flavor-pill" style="--c1:#d98b86; --c2:#f6d9d2;">
+        <div class="flavor-circle">🌸</div>
+        <span>Coral</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA final -->
+  <section class="cta-final" id="preventa">
+    <div class="cta-card">
+      <h2>Sé de los primeros en probar BLOOM</h2>
+      <p>Dejá tu correo y te avisamos apenas abramos la preventa. Además, sumás 20% off en tu primer pedido.</p>
+      <form class="email-form" id="emailForm">
+        <input type="email" id="emailInput" placeholder="tu@email.com" required>
+        <button type="submit" class="btn btn-primary">Anotarme</button>
+      </form>
+      <p class="form-msg" id="formMsg"></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer-logo">BLOOM 🌸</p>
+    <div class="social">
+      <a href="#" aria-label="Instagram">📸</a>
+      <a href="#" aria-label="TikTok">🎵</a>
+      <a href="#" aria-label="Twitter">🐦</a>
+    </div>
+    <div class="footer-note">
+      <span>© 2026 BLOOM. Marca ficticia de demostración.</span>
+      <span class="footer-credit">Sitio de prueba realizado por <img class="footer-deploy-logo" src="assets/img/deploy-logo.png" alt="Deploy" width="900" height="200" loading="lazy"></span>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
